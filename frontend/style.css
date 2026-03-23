@@ -1,0 +1,48 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  color: #333;
+}
+
+header {
+  background: #1a1a2e;
+  color: white;
+  padding: 24px 32px;
+}
+
+header h1 { font-size: 24px; font-weight: 600; }
+header p  { font-size: 14px; opacity: 0.6; margin-top: 4px; }
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 24px 32px 0;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 16px 32px 32px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.kpi { text-align: center; }
+.kpi-value { font-size: 36px; font-weight: 700; color: #e94560; }
+.kpi-label { font-size: 13px; color: #888; margin-top: 6px; }
+
+.card h2 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #444;
+}
